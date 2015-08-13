@@ -5,7 +5,7 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Thu, 13 Aug 2015 11:22:25 -0400</pubDate>
+    <pubDate>Thu, 13 Aug 2015 12:47:37 -0400</pubDate>
     
       <item>
         <title>Jekyll</title>
@@ -15,30 +15,30 @@
 
 &lt;h4 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h4&gt;
 
-&lt;p&gt;Jekyll is a static site generator built on Ruby and also utilizing liquid templating. Jekyll is not a server side client, but rather local scripts that compiles the file types into a single static directory. It utilizes liquid templating, which allows users to designate if/else statements, declare specific html layouts, and more.&lt;/p&gt;
+&lt;p&gt;Jekyll is a static site generator built on Ruby and also utilizing liquid templating. Jekyll is not a server side client, but rather a collection of local scripts that compile separate files into a single static directory. It utilizes liquid templating, which allows users to designate if/else statements, declare specific html layouts, add front matter, and more.&lt;/p&gt;
 
-&lt;p&gt;One of the most important concepts of Jekyll is the content and structure separation. As explained briefly earlier, Jekyll keeps the content of the website and the strucutre/layout of the website in separate directories. An example of this would be this blog post. This post is located in the posts directory, which at this moment, is written in markdown. By adding front matter to the top of the post, triggered by three dashes, one is able to choose a specific layout that coincides with the desired structure of the content. For example, I am writing a post, a Jekyll blog post, so I would note in my front matter in my markdown file that I would like my layout for this post to be, well, a post! One is also able to add additional information, such as the time code, the title of the post, and excerpt of the post, an image, and much more! Pages are created in the same exact way, but knowledge of html, css, and liquid templating are required to ensure correct Jekyll builds.&lt;/p&gt;
+&lt;p&gt;One of the most important concepts of Jekyll is the content and structure separation. As explained briefly earlier, Jekyll keeps the content of the website and the strucutre/layout of the website in separate directories. An example of this would be this blog post. This post is located in the posts directory, which at this moment, is written in markdown. By adding front matter to the top of the post, triggered by three dashes, the user is able to choose a specific layout that coincides with the desired structure of the content. For example, I am writing a post, a Jekyll blog post, so I would note in my front matter in the markdown file In this instance, I would like my layout for this post to be, well, a post! The user is also able to add additional information, such as the time code, the title of the post, and excerpt of the post, an image, and much more! Pages are created in the same exact way, but knowledge of html, css, and liquid templating are required to ensure correct Jekyll builds.&lt;/p&gt;
 
 &lt;h3 id=&quot;pros-of-jekyll&quot;&gt;Pros of Jekyll&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Static sites run faster as there is no database weighing it down. They are solely comprised of html documents and their assets.&lt;/li&gt;
-  &lt;li&gt;Easy authoring: written in markdown, so the barrier to entry for new users is very simple. A blog post ui was also created and can be linked to your Github Repository at &lt;a href=&quot;http://prose.io&quot;&gt;Prose&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Static sites run faster as there is no database weighing it down. They are solely comprised of html  and their assets.&lt;/li&gt;
+  &lt;li&gt;Easy authoring: written in markdown, so the barrier to entry for new users is very low and simple. A blog post ui was also created and can be linked to your Github Repository at &lt;a href=&quot;http://prose.io&quot;&gt;Prose&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Hosted on github pages for free! (This one is)&lt;/li&gt;
   &lt;li&gt;Simple build and deploy: as simple as running jekyll s (for serve to view the site locally) and jekyll b (for build to compile the directory) in the command line.&lt;/li&gt;
-  &lt;li&gt;Dynamic capabilities are possible for static pages, such as An example may be Google Forms to send form data, Disquis comment system and more API’s and embed’s.&lt;/li&gt;
+  &lt;li&gt;Dynamic capabilities are possible for static pages, such as An example may be Google Forms to send form data, Disquis comment system and more API’s and embeds.&lt;/li&gt;
   &lt;li&gt;Supports many frameworks such as Twitter Bootstrap, Foundation 5, and more.&lt;/li&gt;
-  &lt;li&gt;Task runner support, such as Grunt or Gulp.&lt;/li&gt;
+  &lt;li&gt;Task runner support, such as Grunt or Gulp or other systems like Codekit.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;cons-of-jekyll&quot;&gt;Cons of Jekyll&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Not officially supported on Windows.&lt;/li&gt;
-  &lt;li&gt;Does not have a database, meaning that it may be the best solution for every project.&lt;/li&gt;
+  &lt;li&gt;Not officially supported on Windows as it Jekyll is written in Ruby.&lt;/li&gt;
+  &lt;li&gt;Does not have a database, meaning that it may &lt;u&gt;not&lt;/u&gt; be the best solution for every project.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I definitely recommend the going and trying out Jekyll. I have linked a couple videos down here so you can get some information about it!&lt;/p&gt;
+&lt;p&gt;I definitely recommend going and trying out Jekyll. I have linked a couple videos down here so you can get some information about it!&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iWowJBRMtpc&quot;&gt;Getting Started With Jekyll&lt;/a&gt; &lt;br /&gt;
