@@ -5,16 +5,7 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Wed, 12 Aug 2015 18:07:25 -0400</pubDate>
-    
-      <item>
-        <title>My PHP Intro</title>
-        <link>http://masonfox.github.io/2015/07/31/My-PHP-Intro.html</link>
-        <guid isPermaLink="true">http://masonfox.github.io/2015/07/31/My-PHP-Intro.html</guid>
-        <description>&lt;p&gt;Hello World&lt;/p&gt;
-</description>
-        <pubDate>Fri, 31 Jul 2015 00:00:00 -0400</pubDate>
-      </item>
+    <pubDate>Thu, 13 Aug 2015 09:44:04 -0400</pubDate>
     
       <item>
         <title>Jekyll</title>
