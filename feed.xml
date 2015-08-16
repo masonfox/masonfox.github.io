@@ -5,7 +5,7 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Sun, 16 Aug 2015 18:05:53 -0400</pubDate>
+    <pubDate>Sun, 16 Aug 2015 18:06:56 -0400</pubDate>
     
       <item>
         <title>Yeoman</title>
@@ -97,7 +97,7 @@
 
 &lt;!-- End --&gt;
 &lt;div style=&quot;margin: 0 35% 0 35%; padding-top: 1em; min-height: 12em; max-width: 12em;&quot;&gt;
-  &lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/yeoman/yeoman-end.png&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/yeoman-end.png&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 16 Aug 2015 00:00:00 -0400</pubDate>
