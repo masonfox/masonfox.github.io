@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Yeoman | Mason Fox</title>
+	<meta name="description" content="A web application generator for any project! Kicks the bore and time-wasted setup out of each new web project!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://masonfox.github.io/2015/08/16/Yeoman.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Mason Fox" href="http://masonfox.github.io/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<!-- 
+	<link href="//fonts.googleapis.com/css?family=Raleway:100+200+300+400+500+700+bold" rel="stylesheet" type="text/css">
+	 -->
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/me.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Mason Fox</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/portfolio/">
+					Portfolio
+				</a>
+			</li>
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+
+
+<li>
+	<a href="mailto:masonfox22@gmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope bump"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="http://codepen.io/masonfox" title="Follow on Codepen">
+		<i class="fa fa-fw fa-codepen bump"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/masonfox/masonfox.github.io" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github bump"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://dribbble.com/masonfox" title="Follow on Dribbble">
+		<i class="fa fa-fw fa-dribbble bump"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/masonfox" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin bump"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header style="background-image: url('/img/yeoman/yeoman.png')">
+    <h1 class="title">Yeoman</h1>
+    <p class="meta">
+    August 16, 2015
+    
+    </p>
+  </header>
+  <section class="post-content"><p>A web application generator for any project! Kicks the bore and time-wasted setup out of each new web project!</p>
+
+<h3 id="what-is-yeoman">What is Yeoman?</h3>
+<p>Yeoman is a scaffolding tool that strives to increase productivity whilst standardizing best practices when creating new web applications. Combining other js libraries, scripts, package managers and more, Yeoman compiles a custom directory for nearly any application, as long as there is a Yeoman generator for it. You might be asking yourself, “Why is this important/even matter?”. Well, simply put, running Yeoman saves you a monumental amount of time when setting up a project and it also helps emphasize the importance of standardizing best practices by providing you exactly what you need and none more. It will install all of the dependencies for you, link them, create your directories, setup a task runner (this alone is a large time saver), and much more. The rest of this post will contain information about how to install and use Yeoman on your next project! (This is a Mac only tutorial)</p>
+
+<h3 id="yeoman-workflow">Yeoman Workflow</h3>
+<p>With Yeoman, we are able to automatically create our application directory by running Yeoman. This puts us in a wonderful place as we have just created a basic, yet very powerful workflow for ourselves. The Yeoman workflow typically consists of multiple applications, such as Bower, a package manager, as well as task runners such as Grunt or Gulp js, which take care of repetitious tasks when writing code, such as compiling preprocessors, automatically browser refreshing, uglifying/minifying HTML &amp; CSS, Javascript, and more. A typical workflow that Yeoman will set you up with will look like this:</p>
+
+<div class="short-pad"></div>
+<p><img src="/img/yeoman/yo-workflow.png" alt="Yo-Workflow" /></p>
+
+<p>Depending on the creator of the generator, some users may prefer to use Grunt over gulp, or vice-versa, it is typically a personal preference. I am personally a fan of Gulp, but Grunt will essentially run the same.</p>
+
+<h3 id="how-do-i-install-yeoman">How do I install Yeoman?</h3>
+<p>Before downloading and running Yeoman, you will need to download and install
+<a href="https://nodejs.org/" target="_blank">Node js</a>, which includes the Node Package Manager (npm). This will manage your local packages through Node. You can download the Node package and install it through a friendly UI.</p>
+
+<h4 id="yeoman--generator-install">Yeoman &amp; Generator Install</h4>
+<p>After we have installed Node, we can now run this command in our terminal:</p>
+
+<div class="codeblock">
+  npm install -g yo
+</div>
+<div class="short-pad"></div>
+
+<p>Now that we have Yeoman installed globally on our local computer, we can’t really run it yet, we need generators to do the heavy lifting!</p>
+
+<p>Generators are plugins that build a custom webapp directory for the user through a series of questions, informational requests and more. They will need to be installed outside of Yeoman. This can be accomplished via the
+<a href="http://yeoman.io/generators/" target="_blank">Yeoman Website</a> by browsing the available generators and then installing them on the command line with reference to the generators Github readme.</p>
+
+<p>Some generators include:</p>
+
+<blockquote>
+  <p><a href="https://github.com/yeoman/generator-angular" target="_blank">Angular</a><br />
+  <a href="https://github.com/yeoman/generator-webapp" target="_blank">Webapp (The basic webapp)</a><br />
+  <a href="https://github.com/yeoman/generator-gulp-webapp" target="_blank">Gulp</a><br />
+  <a href="https://github.com/robwierzbowski/generator-jekyllrb" target="_blank">Jekyll</a><br />
+  <a href="https://github.com/wesleytodd/YeoPress" target="_blank">Wordpress</a><br />
+  <a href="http://yeoman.io/generators/" target="_blank">and many more…</a><br /></p>
+</blockquote>
+
+<h3 id="how-do-i-run-yeoman">How do I run Yeoman?</h3>
+<p>Running Yeoman is fairly simple, even for those who are terrified of the terminal (I was like that once, it’s okay, really).</p>
+
+<p>First, we want to make a directory to hold all of our generated files. We can do this by running:</p>
+
+<div class="codeblock">
+  &gt;_ mkdir yo
+</div>
+<div class="short-pad"></div>
+
+<p>Now that we have created it, we need to move into this directory before running Yeoman by running:</p>
+
+<div class="codeblock">
+  &gt;_ cd yo
+</div>
+<div class="short-pad"></div>
+
+<p>To execute Yeoman all we need to run is a two letter word: “yo”. It will look like this:</p>
+
+<div class="codeblock">
+  &gt;_ yo
+</div>
+<div class="short-pad"></div>
+
+<p>It will return us this:</p>
+
+<p><img src="/img/yeoman/yo-run.png" alt="Yo-Terminal" /></p>
+
+<div class="short-pad"></div>
+<p>At this point, we are able to select our generator, which will provide the framework for the desired application. I selected the webapp generator, but you may select any of your installed generators.</p>
+
+<p>Upon execution, Yeoman will prompt you with a series of questions to help you setup your project. Questions may relate to a CSS framework choice like Foundation or Bootstrap, using Compass and SASS together, etc. Navigate your way through the prompts and let Yeoman build on.</p>
+<div class="short-pad"></div>
+
+<p><img src="/img/yeoman/yo-webrun.png" alt="Yo-Terminal" /></p>
+
+<div class="short-pad"></div>
+<p>After Yeoman has finished generating your directory, head over to your “yo” directory that houses your generated webapp. You can see that all of the your necessary files have been created for you! Congrats! You just ran Yeoman! Yeah, I know, pretty easy right?!</p>
+
+<p>When it comes to selecting the Grunt or Gulp commands, check the generator repository from which you installed it from. The majority of them will house the task runner information in the readme.</p>
+
+<p>If you haven’t already, check out Yeoman by using the link below and stop wasting your time setting up your next project, let Yeoman take care of it! He’s pretty good at it! :)</p>
+
+<!-- End -->
+<div style="margin: 0 35% 0 35%; padding-top: 1em; min-height: 12em; max-width: 12em;">
+  <a href="http://yeoman.io/" target="_blank"><img src="/img/yeoman/yeoman-end.png" /></a>
+</div>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <a id="prev-post" href="/2015/08/15/Codepen-Playground.html">
+      <span class="page-title">Codepen Playground</span>
+      <span class="nav-label">
+        <i class="fa fa-angle-left"></i> Prev
+      </span>
+    </a>
+    
+    
+</div>
+
+
+<!-- Disqus -->
+
+
+    </div>
+    
+<script src="/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">&copy; 2015 | All Rights Reserved Mason Fox | Proudly powered by <a href="http://jekyllrb.com">Jekyll</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
