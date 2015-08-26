@@ -5,12 +5,12 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Wed, 26 Aug 2015 15:50:15 -0400</pubDate>
+    <pubDate>Wed, 26 Aug 2015 16:04:35 -0400</pubDate>
     
       <item>
         <title>Particles Js</title>
-        <link>http://masonfox.github.io/2015/08/24/Particles.js.html</link>
-        <guid isPermaLink="true">http://masonfox.github.io/2015/08/24/Particles.js.html</guid>
+        <link>http://masonfox.github.io/2015/08/24/Particles-Js.html</link>
+        <guid isPermaLink="true">http://masonfox.github.io/2015/08/24/Particles-Js.html</guid>
         <description>&lt;p&gt;An interactive Javascript particle script&lt;/p&gt;
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;OVeYrz&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/OVeYrz/&quot;&gt;particles.js&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
