@@ -18,7 +18,7 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 	<!-- Canonical -->
-	<link rel="canonical" href="http://masonfox.github.io/2015/08/28/jQuery-Cart-Button.html">
+	<link rel="canonical" href="http://masonfox.github.io/2015/08/30/jQuery-Cart-Button.html">
 
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="Mason Fox" href="http://masonfox.github.io/feed.xml" />
@@ -184,15 +184,15 @@
   <header style="background-image: url('/img/blank.svg')">
     <h1 class="title">jQuery Cart Button</h1>
     <p class="meta">
-    August 28, 2015
+    August 30, 2015
     
     </p>
   </header>
   <section class="post-content"><p>An animated jQuery Cart button!</p>
 
-<p>My idea for this from a couple things. First, I began working with jQuery more extensively, so I wanted to take more time to understand how animating/moving objects on events worked. Although this isn’t really an animation per-say, since I am adjusting margins, I feel as though it turned out well.</p>
+<p>My idea for this came from a couple things. First, I began working with jQuery extensively and I wanted to take more time to understand how animating/moving objects on events worked. Although this isn’t really an animation per-say, since I am only adjusting margins, I feel as though it turned out well.</p>
 
-<p>Second, I am in the process of redesigning a website for the company that I work for. It is a very large commerce site with a lot moving parts, one especially being the flow of products added to a cart. Although I wish I were able to implement something like this into the site I am working on, it does not really fit the scope of the project. But, I figured I’d make a pen to see how it worked!</p>
+<p>Secondly, I am in the process of redesigning a website for the company that I work for. It is a very large commerce site with a lot moving parts, one especially being the flow of products added to a cart. Although I wish I were able to implement something like this into the site I am working on, it does not really fit the scope of the project. But, I figured I’d make a pen to see if I could make it happen!</p>
 
 <p>Here it is:</p>
 
@@ -200,7 +200,7 @@
 <script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 <div class="short-pad"></div>
 
-<p>I won’t go into heavy heavy detail on how I did this, as you can literally look at the markup and style, but I would like to talk about the jQuery, since I am still very new to it.</p>
+<p>I won’t go into heavy detail on how I did this, as you can literally look at the markup and style, but I would like to talk about the jQuery, since I am still very new to it.</p>
 
 <h3 id="the-jquery">The jQuery</h3>
 <p>There are only two functions total with numerous selectors:</p>
@@ -208,13 +208,13 @@
 <h4 id="function-1---add">Function 1 - .add</h4>
 <p>.add is a div that holds the style for the stylized button that you initially see. It is green and has the “Add to Cart” text on it. .add is a child of the .button element, which contains all of the other elements. I needed to structure it this way so I could use overflow: hidden to move out and hide the other two buttons, checkout and continue.</p>
 
-<p>.add is the .click event selector for many elements: the checkout and continue divs, showing the close button, which resets the animation, and also itself by changing its background to transparent. These changes were mostly accomplished via the .css event. I also hid the close button on document load, but that is not within .add event, but rather above it so it executes first.</p>
+<p>.add is the .click event selector for many elements: the .checkout and .continue divs, showing the close button, which resets the animation, and also itself by changing its background to transparent. These changes were mostly accomplished via the .css event in jQuery. I also hid the close button on document load, but that is not within .add event, but rather above it so it executes first.</p>
 
 <h4 id="function-2---close">Function 2 - .close</h4>
-<p>So the animation has completed upon clicking the .add button, but, well, we have to get it back. Maybe someone decided they did not want to add that item to their cart, so I had to write it to reset itself. .close if the selector that controls the function. It will push everything back to where it was and also hide itself again. This then resets the whole animation to proceed again.</p>
+<p>So the animation has completed upon clicking the .add button, but, well, we have to get it back to normal. Maybe someone decided they did not want to add that item to their cart, so I had to write it to reset itself. .close is the selector that controls this function. It will push everything back to where it was and also hide itself again. This then resets the whole animation to proceed again.</p>
 
 <h3 id="conclusion">Conclusion</h3>
-<p>I had a really fun time working on this. Although I know that there are many ways I could have made this better, example, making it responsive, using widths and margins to “margin: 0 auto”, the good ‘ol classic centering technique to help solidify a centered structure, and more. But when it boils down to it, I had an idea in my mind and was able to execute it.</p>
+<p>I had a really fun time working on this pen! Although I know that there are many ways I could have made this better, for example, making it responsive, using widths and margins to “margin: 0 auto”, the good ‘ol classic centering technique to help solidify a centered structure, and more. But when it boils down to it, I had an idea in my mind and was able to execute it!</p>
 </section>
 </article>
 
