@@ -5,7 +5,42 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Wed, 26 Aug 2015 16:10:38 -0400</pubDate>
+    <pubDate>Sat, 29 Aug 2015 20:18:09 -0400</pubDate>
+    
+      <item>
+        <title>jQuery Cart Button</title>
+        <link>http://masonfox.github.io/2015/08/28/jQuery-Cart-Button.html</link>
+        <guid isPermaLink="true">http://masonfox.github.io/2015/08/28/jQuery-Cart-Button.html</guid>
+        <description>&lt;p&gt;An animated jQuery Cart button!&lt;/p&gt;
+
+&lt;p&gt;My idea for this from a couple things. First, I began working with jQuery more extensively, so I wanted to take more time to understand how animating/moving objects on events worked. Although this isn’t really an animation per-say, since I am adjusting margins, I feel as though it turned out well.&lt;/p&gt;
+
+&lt;p&gt;Second, I am in the process of redesigning a website for the company that I work for. It is a very large commerce site with a lot moving parts, one especially being the flow of products added to a cart. Although I wish I were able to implement something like this into the site I am working on, it does not really fit the scope of the project. But, I figured I’d make a pen to see how it worked!&lt;/p&gt;
+
+&lt;p&gt;Here it is:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;WQedrq&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/WQedrq/&quot;&gt;Add to Cart Button Interaction&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;I won’t go into heavy heavy detail on how I did this, as you can literally look at the markup and style, but I would like to talk about the jQuery, since I am still very new to it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-jquery&quot;&gt;The jQuery&lt;/h3&gt;
+&lt;p&gt;There are only two functions total with numerous selectors:&lt;/p&gt;
+
+&lt;h4 id=&quot;function-1---add&quot;&gt;Function 1 - .add&lt;/h4&gt;
+&lt;p&gt;.add is a div that holds the style for the stylized button that you initially see. It is green and has the “Add to Cart” text on it. .add is a child of the .button element, which contains all of the other elements. I needed to structure it this way so I could use overflow: hidden to move out and hide the other two buttons, checkout and continue.&lt;/p&gt;
+
+&lt;p&gt;.add is the .click event selector for many elements: the checkout and continue divs, showing the close button, which resets the animation, and also itself by changing its background to transparent. These changes were mostly accomplished via the .css event. I also hid the close button on document load, but that is not within .add event, but rather above it so it executes first.&lt;/p&gt;
+
+&lt;h4 id=&quot;function-2---close&quot;&gt;Function 2 - .close&lt;/h4&gt;
+&lt;p&gt;So the animation has completed upon clicking the .add button, but, well, we have to get it back. Maybe someone decided they did not want to add that item to their cart, so I had to write it to reset itself. .close if the selector that controls the function. It will push everything back to where it was and also hide itself again. This then resets the whole animation to proceed again.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I had a really fun time working on this. Although I know that there are many ways I could have made this better, example, making it responsive, using widths and margins to “margin: 0 auto”, the good ‘ol classic centering technique to help solidify a centered structure, and more. But when it boils down to it, I had an idea in my mind and was able to execute it.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2015 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Particles Js</title>
