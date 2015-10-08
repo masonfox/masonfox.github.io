@@ -1,289 +1,52 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-	<meta charset="utf-8">
-	<title> Mason Fox</title>
-	<meta name="description" content="An Independent Study of Javascript, jQuery, and PHP">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-Frame-Options" content="sameorigin">
+---
+layout: default
+---
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="/css/main.css">
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-
-	<!--Favicon-->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-	<!-- Canonical -->
-	<link rel="canonical" href="http://masonfox.github.io/">
-
-	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="Mason Fox" href="http://masonfox.github.io/feed.xml" />
-
-	<!-- Font Awesome -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
-	<!-- Google Fonts -->
-	<!-- 
-	<link href="//fonts.googleapis.com/css?family=Raleway:100+200+300+400+500+700+bold" rel="stylesheet" type="text/css">
-	 -->
-	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
-
-
-	<!-- KaTeX -->
-	
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
-	
-
-	<!-- Google Analytics -->
-	
-</head>
-
-  <body>
-    <header class="site-header">
-	<div class="branding">
-		
-		<a href="/">
-			<img class="avatar" src="/img/me.png" alt=""/>
-		</a>
-		
-		<h1 class="site-title">
-			<a href="/">Mason Fox</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			
-			
-			
-			
-			<li>
-				<a class="page-link" href="/about/">
-					About
-				</a>
-			</li>
-			
-			
-			
-			<li>
-				<a class="page-link" href="/contact/">
-					Contact
-				</a>
-			</li>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			<li>
-				<a class="page-link" href="/portfolio/">
-					Portfolio
-				</a>
-			</li>
-			
-			
-			
-			<li>
-				<a class="page-link" href="/skills/">
-					Skills
-				</a>
-			</li>
-			
-			
-			
-			
-			<!-- Social icons from Font Awesome, if enabled -->
-			
-
-
-<li>
-	<a href="mailto:masonfox22@gmail.com" title="Email">
-		<i class="fa fa-fw fa-envelope bump"></i>
-	</a>
-</li>
-
-
-
-<li>
-	<a href="http://codepen.io/masonfox" title="Follow on Codepen">
-		<i class="fa fa-fw fa-codepen bump"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-<li>
-	<a href="https://github.com/masonfox/masonfox.github.io" title="Follow on GitHub">
-		<i class="fa fa-fw fa-github bump"></i>
-	</a>
-</li>
-
-
-
-<li>
-	<a href="https://dribbble.com/masonfox" title="Follow on Dribbble">
-		<i class="fa fa-fw fa-dribbble bump"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-<li>
-	<a href="https://www.linkedin.com/in/masonfox" title="Follow on LinkedIn">
-		<i class="fa fa-fw fa-linkedin bump"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</ul>
-	</nav>
-</header>
-
-    <div class="content">
-      <div class="home">
-  
+<div class="home">
+  {% if site.theme.header_text %}
   <div class="call-out"
-  style="background-image: url('/')">
-    <h3>An Independent study of Javascript, jQuery, PHP, and other web related topics</h3>
-
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+    {{ site.theme.header_text }}
   </div>
-  
+  {% endif %}
 
   <div class="posts">
-    
+    {% for post in paginator.posts %}
     <div class="post-teaser">
       <header>
         <h1>
-          <a class="post-link" href="/2015/08/30/jQuery-Cart-Button.html">
-            jQuery Cart Button
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
           </a>
         </h1>
         <p class="meta">
-          August 30, 2015
+          {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
       <div class="excerpt">
-        <p>An animated jQuery Cart button!</p>
-
-
-        <a class="button" href="/2015/08/30/jQuery-Cart-Button.html">
-          Continue reading <i class="fa fa-angle-right"></i>
+        {{ post.excerpt }}
+        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+          {{ site.theme.str_continue_reading }} <i class="fa fa-angle-right"></i>
         </a>
       </div>
     </div>
-    
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="/2015/08/24/Particles-Js.html">
-            Particles Js
-          </a>
-        </h1>
-        <p class="meta">
-          August 24, 2015
-        </p>
-      </header>
-      <div class="excerpt">
-        <p>An interactive Javascript particle script</p>
-<p data-height="268" data-theme-id="0" data-slug-hash="OVeYrz" data-default-tab="result" data-user="masonfox" class="codepen">See the Pen <a href="http://codepen.io/masonfox/pen/OVeYrz/">particles.js</a> by Mason Fox (<a href="http://codepen.io/masonfox">@masonfox</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-<p><br /></p>
-
-
-        <a class="button" href="/2015/08/24/Particles-Js.html">
-          Continue reading <i class="fa fa-angle-right"></i>
-        </a>
-      </div>
-    </div>
-    
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="/2015/08/16/Yeoman.html">
-            Yeoman
-          </a>
-        </h1>
-        <p class="meta">
-          August 16, 2015
-        </p>
-      </header>
-      <div class="excerpt">
-        <p>A web application generator for any project! Kicks the bore and time-wasted setup out of each new web project!</p>
-
-
-        <a class="button" href="/2015/08/16/Yeoman.html">
-          Continue reading <i class="fa fa-angle-right"></i>
-        </a>
-      </div>
-    </div>
-    
+    {% endfor %}
   </div>
 
-  
+  {% if paginator.total_pages > 1 %}
   <div class="pagination">
-    
-    
-    <a href="/blog/page2" class="button" >
-      Next
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-angle-left"></i>
+      {{ site.theme.str_prev }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme.str_next }}
       <i class="fa fa-angle-right"></i>
     </a>
-    
+    {% endif %}
   </div>
-  
+  {% endif %}
 </div>
-
-    </div>
-    
-<script src="/js/katex_init.js"></script>
-
-<script src="/js/bootstrap.min.js"></script>
-
-
-<footer class="site-footer">
-	<p class="text">&copy; 2015 | All Rights Reserved Mason Fox | Proudly powered by <a href="http://jekyllrb.com">Jekyll</a>
-</p>
-</footer>
-
-
-  </body>
-</html>

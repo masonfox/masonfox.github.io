@@ -1,0 +1,72 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://masonfox.github.io" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Mason Fox
+  avatar: me.png
+  gravatar: # Email MD5 hash
+  description: "An Independent Study of Javascript, jQuery, and PHP" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h3>An Independent study of Javascript, jQuery, PHP, and other web related topics</h3>
+  header_text_feature_image:
+  footer_text: >
+   &copy; 2015 | All Rights Reserved Mason Fox | Proudly powered by <a href="http://jekyllrb.com">Jekyll</a>
+
+  # Icons
+  rss:
+  email_address: masonfox22@gmail.com
+  codepen: masonfox
+  behance:
+  bitbucket:
+  facebook:
+  flickr:
+  github: "masonfox/masonfox.github.io"
+  google_plus:
+  instagram:
+  dribbble: masonfox
+  linkedin: https://www.linkedin.com/in/masonfox
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  # twitter: mason_fox22
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Raleway:100+200+300+400+500+700+bold"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 3
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed

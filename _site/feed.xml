@@ -5,7 +5,30 @@
     <atom:link href="http://masonfox.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://masonfox.github.io/</link>
     <description>An Independent Study of Javascript, jQuery, and PHP</description>
-    <pubDate>Sun, 30 Aug 2015 13:38:21 -0400</pubDate>
+    <pubDate>Thu, 08 Oct 2015 16:52:36 -0400</pubDate>
+    
+      <item>
+        <title>Agency Name Generator</title>
+        <link>http://masonfox.github.io/2015/10/05/Creative-Agency-Name-Generator.html</link>
+        <guid isPermaLink="true">http://masonfox.github.io/2015/10/05/Creative-Agency-Name-Generator.html</guid>
+        <description>&lt;p&gt;A javascript and jQuery interactive agency name generator &lt;br /&gt;
+&lt;strong&gt;Picked on Codepen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello, it has been a while since I have posted! I have been working on a project with a friend and spending a large portion of my free time coding up demos on &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen&lt;/a&gt;. I have spoken about Codepen before and suggest it to any web designer/developer. With a newly redesigned website, Codepen is becoming more and more integral into my design and development workflow.&lt;/p&gt;
+
+&lt;p&gt;With this increased time spent on Codepen, I have been throwing demos together of ideas that I have. One of these ideas was this agency name generator. The idea came from stumbling across some really interesting agency names. I figured I would take advantage of this and make a fun little tool, if you can even call it that! It essentially uses math random to pull from two variables, both consisting of a name, which combined creates two words culminating into a creative agency name. You can then add “creative” to top off the experience and also remove it if you aren’t feeling the mainstream title.&lt;/p&gt;
+
+&lt;p&gt;I feel very blessed to say that this pen was picked on Codepen. This is when one of the three creators of Codepen, specifically the front end designer/developer, Chris Coiyer, selects pens of their personal liking. Chris has been a huge influence on me and my initial and continued interest and my ultimately my career in web design and development. I feel very blessed to have been noticed in this way!&lt;/p&gt;
+
+&lt;p&gt;Any who, check it out: :)&lt;/p&gt;
+
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+&lt;p data-height=&quot;468&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;yYMVGz&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/yYMVGz/&quot;&gt;Creative Agency Name Generator&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 05 Oct 2015 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>jQuery Cart Button</title>
