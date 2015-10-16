@@ -1,10 +1,10 @@
 .intro-holder {
 	position: absolute;
-	top: 30%;
-	right: 40%;
-	height: 20em;
+	top: 22vh;
+	left: 40%;
+	height: auto;
 	width: 20em;
-	background:#67c397;
+	background: rgba(103, 195, 151, .75);
 	-webkit-box-shadow: 10px 10px 60px 0px rgba(40,57,71,1);
 	-moz-box-shadow: 10px 10px 60px 0px rgba(40,57,71,1);
 	box-shadow: 10px 10px 60px 0px rgba(40,57,71,1);
@@ -13,7 +13,7 @@
 .info-holder {
 	position: relative;
 	right: 0;
-	padding: 1em .75em 1.5em 1.5em;
+	padding: 0em 3em 4em 3.5em;
 	float: right;
 }
 
@@ -36,17 +36,17 @@ a {
 }
 
 .intro-button {
-	outline: 1px solid $main-green;
-	height: 2em;
-	line-height: 1.90em;
-	width: 10em;
-	font-size: 16px;
-	padding: 1em;
+	background: rgba(103, 195, 151, .75);
+	margin-top: 2em;
+	height: auto;
+	padding: .50em 2em 2em 2em;
+	width: auto;
 	text-align: center;
 	transition: all 500ms ease-in;
-	margin: 1em 1em 0 0;
+	
 }
 
 .intro-button:hover {
-	background: $main-green;
+	background: rgba(103, 195, 151, .50);
+	outline: none;
 }

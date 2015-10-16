@@ -69,9 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: $main-blue;
-  background-image: url('');
+  background-image: url('../images/color.jpg');
+  // background-color: $main-blue;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+	// z-index: 10000;
 }
