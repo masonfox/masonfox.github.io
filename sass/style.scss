@@ -1,0 +1,12 @@
+// fonts
+
+// neat import
+@import "bourbon_neat/bourbon", "bourbon_neat/neat";
+
+// base
+@import "base/variables"; // variables
+@import "base/reset"; // non-official reset - might change
+
+// home | main style imports
+@import "home/landing";
+@import "home/particles";
