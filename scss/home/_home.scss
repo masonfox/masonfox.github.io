@@ -14,10 +14,10 @@
   opacity: 0;
   border-bottom: .3em solid transparent;
   
-    h2 {
+    h2, h3 {
       text-align: center;
       position: relative;
-      top: 50%;
+      top: 30%;
       transform: translateY(-50%);
       color: #fff;
     }
@@ -44,4 +44,15 @@
 }
 #rails {
   background: #9D2F39;
+}
+#jekyll {
+  background: #333333;
+}
+#codepen {
+  background: #2196F3;
+}
+
+
+#blank {
+  background: #67C397;
 }

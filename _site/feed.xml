@@ -6,35 +6,314 @@
 </description>
     <link>http://mason-fox.com/</link>
     <atom:link href="http://mason-fox.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Nov 2015 14:52:35 -0500</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2015 14:52:35 -0500</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2015 16:04:26 -0500</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2015 16:04:26 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Ruby on Rails</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/06/ruby-on-rails.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/06/ruby-on-rails.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Grunt JS</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/06/grunt.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/06/grunt.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Foundation</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/06/foundation.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/06/foundation.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bootstrap</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/06/bootstrap.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/06/bootstrap.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Angular Js</title>
+        <description>
+</description>
+        <pubDate>Tue, 06 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/06/angular-js.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/06/angular-js.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Agency Name Generator</title>
+        <description>&lt;p&gt;A javascript and jQuery interactive agency name generator &lt;br /&gt;
+&lt;strong&gt;Picked on Codepen&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Hello, it has been a while since I have posted! I have been working on a project with a friend and spending a large portion of my free time coding up demos on &lt;a href=&quot;http://codepen.io&quot;&gt;Codepen&lt;/a&gt;. I have spoken about Codepen before and suggest it to any web designer/developer. With a newly redesigned website, Codepen is becoming more and more integral into my design and development workflow.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;With this increased time spent on Codepen, I have been throwing demos together of ideas that I have. One of these ideas was this agency name generator. The idea came from stumbling across some really interesting agency names. I figured I would take advantage of this and make a fun little tool, if you can even call it that! It essentially uses math random to pull from two variables, both consisting of a name, which combined creates two words culminating into a creative agency name. You can then add “creative” to top off the experience and also remove it if you aren’t feeling the mainstream title.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;I feel very blessed to say that this pen was picked on Codepen. This is when one of the three creators of Codepen, specifically the front end designer/developer, Chris Coiyer, selects pens of their personal liking. Chris has been a huge influence on me and my initial and continued interest and my ultimately my career in web design and development. I feel very blessed to have been noticed in this way!&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Any who, check it out: :)&lt;/p&gt;
+
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+&lt;p data-height=&quot;468&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;yYMVGz&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/yYMVGz/&quot;&gt;Creative Agency Name Generator&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 </description>
-        <pubDate>Wed, 28 Oct 2015 23:40:11 -0400</pubDate>
-        <link>http://mason-fox.com/jekyll/update/2015/10/28/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://mason-fox.com/jekyll/update/2015/10/28/welcome-to-jekyll.html</guid>
+        <pubDate>Mon, 05 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/10/05/creative-agency-name-generator.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/10/05/creative-agency-name-generator.html</guid>
         
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>jQuery Cart Button</title>
+        <description>&lt;p&gt;An animated jQuery Cart button!&lt;/p&gt;
+
+&lt;p&gt;My idea for this came from a couple things. First, I began working with jQuery extensively and I wanted to take more time to understand how animating/moving objects on events worked. Although this isn’t really an animation per-say, since I am only adjusting margins, I feel as though it turned out well.&lt;/p&gt;
+
+&lt;p&gt;Secondly, I am in the process of redesigning a website for the company that I work for. It is a very large commerce site with a lot moving parts, one especially being the flow of products added to a cart. Although I wish I were able to implement something like this into the site I am working on, it does not really fit the scope of the project. But, I figured I’d make a pen to see if I could make it happen!&lt;/p&gt;
+
+&lt;p&gt;Here it is:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;WQedrq&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/WQedrq/&quot;&gt;Add to Cart Button Interaction&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;I won’t go into heavy detail on how I did this, as you can literally look at the markup and style, but I would like to talk about the jQuery, since I am still very new to it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-jquery&quot;&gt;The jQuery&lt;/h3&gt;
+&lt;p&gt;There are only two functions total with numerous selectors:&lt;/p&gt;
+
+&lt;h4 id=&quot;function-1---add&quot;&gt;Function 1 - .add&lt;/h4&gt;
+&lt;p&gt;.add is a div that holds the style for the stylized button that you initially see. It is green and has the “Add to Cart” text on it. .add is a child of the .button element, which contains all of the other elements. I needed to structure it this way so I could use overflow: hidden to move out and hide the other two buttons, checkout and continue.&lt;/p&gt;
+
+&lt;p&gt;.add is the .click event selector for many elements: the .checkout and .continue divs, showing the close button, which resets the animation, and also itself by changing its background to transparent. These changes were mostly accomplished via the .css event in jQuery. I also hid the close button on document load, but that is not within .add event, but rather above it so it executes first.&lt;/p&gt;
+
+&lt;h4 id=&quot;function-2---close&quot;&gt;Function 2 - .close&lt;/h4&gt;
+&lt;p&gt;So the animation has completed upon clicking the .add button, but, well, we have to get it back to normal. Maybe someone decided they did not want to add that item to their cart, so I had to write it to reset itself. .close is the selector that controls this function. It will push everything back to where it was and also hide itself again. This then resets the whole animation to proceed again.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I had a really fun time working on this pen! Although I know that there are many ways I could have made this better, for example, making it responsive, using widths and margins to “margin: 0 auto”, the good ‘ol classic centering technique to help solidify a centered structure, and more. But when it boils down to it, I had an idea in my mind and was able to execute it!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/08/30/jquery-cart-button.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/08/30/jquery-cart-button.html</guid>
         
-        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Particles Js</title>
+        <description>&lt;p&gt;An interactive Javascript particle script&lt;/p&gt;
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;OVeYrz&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/OVeYrz/&quot;&gt;particles.js&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;about-particles-js&quot;&gt;About Particles Js&lt;/h3&gt;
+&lt;p&gt;The example above is a snippet from Particles Js. It is a Javascript library intended to help designers and developers inject interactive particle effects into their designs. It is functionally written in Javascript. Particles Js is implemented in HTML &amp;amp; CSS by a div with an ID of particle and some specific CSS, but other than that, it is fairly straight-forward.&lt;/p&gt;
+
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;The creator of the library, Vincent Garreau, created a &lt;a href=&quot;http://vincentgarreau.com/particles.js/&quot;&gt;UI&lt;/a&gt; to help users configure their Particles script. The example posted within the excerpt of the post is the “grab” interactive configuration. Below is an example of the “repulse” function of Particles Js.&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;OVKpqM&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/OVKpqM/&quot;&gt;particles.js demo&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the UI allows designers and developers customization over the library to outfit their intended goal.&lt;/p&gt;
+
+&lt;h3 id=&quot;internet-aestheticism&quot;&gt;Internet Aestheticism&lt;/h3&gt;
+&lt;p&gt;Particles Js does not really serve any specific purpose, nor does its implementation other than exploring and pushing the boundaries of front end development. I first saw it on a previous co-workers website and wondered how it was written. I inspected it, but was unable to find much information on it within Chrome dev tools. I ended up stumbling across it on &lt;a href=&quot;http://codepen.io/VincentGarreau/pen/pnlso&quot;&gt;codepen&lt;/a&gt; where I forked it and played around with it a little bit.&lt;/p&gt;
+
+&lt;p&gt;I find Javascript libraries similar to Particles Js to be really interesting. They enhance the user’s visual and interactive experience. I definitely would like to learn more about similar libraries and implement them within future designs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://vincentgarreau.com/particles.js/&quot;&gt;Particles Js UI&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;http://codepen.io/VincentGarreau/pen/pnlso&quot;&gt;Particles Js Pen&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/08/24/particles-js.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/08/24/particles-js.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Yeoman</title>
+        <description>&lt;p&gt;A web application generator for any project! Kicks the bore and time-wasted setup out of each new web project!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-yeoman&quot;&gt;What is Yeoman?&lt;/h3&gt;
+&lt;p&gt;Yeoman is a scaffolding tool that strives to increase productivity whilst standardizing best practices when creating new web applications. Combining other js libraries, scripts, package managers and more, Yeoman compiles a custom directory for nearly any application, as long as there is a Yeoman generator for it. You might be asking yourself, “Why is this important/even matter?”. Well, simply put, running Yeoman saves you a monumental amount of time when setting up a project and it also helps emphasize the importance of standardizing best practices by providing you exactly what you need and none more. It will install all of the dependencies for you, link them, create your directories, setup a task runner (this alone is a large time saver), and much more. The rest of this post will contain information about how to install and use Yeoman on your next project! (This is a Mac only tutorial)&lt;/p&gt;
+
+&lt;h3 id=&quot;yeoman-workflow&quot;&gt;Yeoman Workflow&lt;/h3&gt;
+&lt;p&gt;With Yeoman, we are able to automatically create our application directory by running Yeoman. This puts us in a wonderful place as we have just created a basic, yet very powerful workflow for ourselves. The Yeoman workflow typically consists of multiple applications, such as Bower, a package manager, as well as task runners such as Grunt or Gulp js, which take care of repetitious tasks when writing code, such as compiling preprocessors, automatically browser refreshing, uglifying/minifying HTML &amp;amp; CSS, Javascript, and more. A typical workflow that Yeoman will set you up with will look like this:&lt;/p&gt;
+
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/img/yo-workflow.png&quot; alt=&quot;Yo-Workflow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on the creator of the generator, some users may prefer to use Grunt over gulp, or vice-versa, it is typically a personal preference. I am personally a fan of Gulp, but Grunt will essentially run the same.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-install-yeoman&quot;&gt;How do I install Yeoman?&lt;/h3&gt;
+&lt;p&gt;Before downloading and running Yeoman, you will need to download and install
+&lt;a href=&quot;https://nodejs.org/&quot; target=&quot;_blank&quot;&gt;Node js&lt;/a&gt;, which includes the Node Package Manager (npm). This will manage your local packages through Node. You can download the Node package and install it through a friendly UI.&lt;/p&gt;
+
+&lt;h4 id=&quot;yeoman--generator-install&quot;&gt;Yeoman &amp;amp; Generator Install&lt;/h4&gt;
+&lt;p&gt;After we have installed Node, we can now run this command in our terminal:&lt;/p&gt;
+
+&lt;div class=&quot;codeblock&quot;&gt;
+  npm install -g yo
+&lt;/div&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Now that we have Yeoman installed globally on our local computer, we can’t really run it yet, we need generators to do the heavy lifting!&lt;/p&gt;
+
+&lt;p&gt;Generators are plugins that build a custom webapp directory for the user through a series of questions, informational requests and more. They will need to be installed outside of Yeoman. This can be accomplished via the
+&lt;a href=&quot;http://yeoman.io/generators/&quot; target=&quot;_blank&quot;&gt;Yeoman Website&lt;/a&gt; by browsing the available generators and then installing them on the command line with reference to the generators Github readme.&lt;/p&gt;
+
+&lt;p&gt;Some generators include:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/yeoman/generator-angular&quot; target=&quot;_blank&quot;&gt;Angular&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/yeoman/generator-webapp&quot; target=&quot;_blank&quot;&gt;Webapp (The basic webapp)&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/yeoman/generator-gulp-webapp&quot; target=&quot;_blank&quot;&gt;Gulp&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/robwierzbowski/generator-jekyllrb&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/wesleytodd/YeoPress&quot; target=&quot;_blank&quot;&gt;Wordpress&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;http://yeoman.io/generators/&quot; target=&quot;_blank&quot;&gt;and many more…&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;how-do-i-run-yeoman&quot;&gt;How do I run Yeoman?&lt;/h3&gt;
+&lt;p&gt;Running Yeoman is fairly simple, even for those who are terrified of the terminal (I was like that once, it’s okay, really).&lt;/p&gt;
+
+&lt;p&gt;First, we want to make a directory to hold all of our generated files. We can do this by running:&lt;/p&gt;
+
+&lt;div class=&quot;codeblock&quot;&gt;
+  &amp;gt;_ mkdir yo
+&lt;/div&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Now that we have created it, we need to move into this directory before running Yeoman by running:&lt;/p&gt;
+
+&lt;div class=&quot;codeblock&quot;&gt;
+  &amp;gt;_ cd yo
+&lt;/div&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To execute Yeoman all we need to run is a two letter word: “yo”. It will look like this:&lt;/p&gt;
+
+&lt;div class=&quot;codeblock&quot;&gt;
+  &amp;gt;_ yo
+&lt;/div&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It will return us this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/yo-run.png&quot; alt=&quot;Yo-Terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+&lt;p&gt;At this point, we are able to select our generator, which will provide the framework for the desired application. I selected the webapp generator, but you may select any of your installed generators.&lt;/p&gt;
+
+&lt;p&gt;Upon execution, Yeoman will prompt you with a series of questions to help you setup your project. Questions may relate to a CSS framework choice like Foundation or Bootstrap, using Compass and SASS together, etc. Navigate your way through the prompts and let Yeoman build on.&lt;/p&gt;
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/yo-webrun.png&quot; alt=&quot;Yo-Terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;short-pad&quot;&gt;&lt;/div&gt;
+&lt;p&gt;After Yeoman has finished generating your directory, head over to your “yo” directory that houses your generated webapp. You can see that all of your necessary files have been created for you! Congrats! You just ran Yeoman! Yeah, I know, pretty easy right?!&lt;/p&gt;
+
+&lt;p&gt;When it comes to selecting the Grunt or Gulp commands, check the generator repository from which you installed it from. The majority of them will house the task runner information in the readme.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t already, check out Yeoman by using the link below and stop wasting your time setting up your next project, let Yeoman take care of it! He’s pretty good at it! :)&lt;/p&gt;
+
+&lt;!-- End --&gt;
+&lt;div style=&quot;margin: 0 35% 0 35%; padding-top: 1em; min-height: 12em; max-width: 12em;&quot;&gt;
+  &lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/yeoman-end.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 16 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/08/16/yeoman.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/08/16/yeoman.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Codepen Playground</title>
+        <description>&lt;p&gt;Codepen, the front end playground for designers and developers. Demo, or it didn’t happen!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-codepen&quot;&gt;What is Codepen?&lt;/h3&gt;
+
+&lt;p&gt;Codepen is an in browser IDE (Integrated Desktop Environment) or online text-editor for short. Just as we develop our code in our respective desktop environments, Codepen allows users to write front end code, process it instantly, and share it with other front-end designers/developers. One of the most interesting aspects of Codepen is the ability to write Javascript, which if you are familiar is a large large large (10x) no no for websites. If a visitor is able to write arbitrary code, such as a Javascript alert(“Hello”), this tells the visitor/potential hacker that they have the ability to execute Javascript on the website. This is a huge deal as it can lead to the acquisition of cookies, which we all know is a disastrous security issue. Codepen prevents this security threat by stripping away potentially dangerous executable code when live updating the code, pretty ingenious.&lt;/p&gt;
+
+&lt;p&gt;Other than being able to write HTML, CSS, and Javascript, Codepen allows users to extend their productivity with the addition of not only CSS preprocessors, such as LESS, SASS, Stylus, SCSS, and PostCSS, but also HTML preprocessors! This includes the traditionally loved HAML, as well as Slim, and Jade. I have embedded one of my basic pens that illustrates a css rotation animation. The written with the Slim and SCSS preprocessors. You can view the compiled code by selecting this option when tabbing through the Slim and SCSS.&lt;/p&gt;
+
+&lt;p&gt;A sample pen:&lt;/p&gt;
+
+&lt;!-- Begin Pen --&gt;
+&lt;p data-height=&quot;290&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;XbQqWY&quot; data-default-tab=&quot;result&quot; data-user=&quot;masonfox&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/masonfox/pen/XbQqWY/&quot;&gt;Spinning Circle&lt;/a&gt; by Mason Fox (&lt;a href=&quot;http://codepen.io/masonfox&quot;&gt;@masonfox&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- End Pen --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Codepen also includes other small features such as extending styling possibilities by adding external stylesheets from web sources, such as Bootstrap, jQuery, and many more. Codepen will also take care of vendor prefixing with autoprefixer as well.&lt;/p&gt;
+
+&lt;h3 id=&quot;social-ideology&quot;&gt;Social Ideology&lt;/h3&gt;
+&lt;p&gt;The online editor includes social aspects by letting others view, heart (essentially liking), comment, and even fork your pen to edit and play with themselves. Codepen also displays the most popular pens each day, which typically showcases revolutionary CSS and Javascript implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;features-of-codepen&quot;&gt;Features of Codepen&lt;/h3&gt;
+
+&lt;h4 id=&quot;general-features&quot;&gt;General Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Online Code Editor that syncs changes automatically&lt;/li&gt;
+  &lt;li&gt;Embed Pens on websites (Uses data, not iFrame)&lt;/li&gt;
+  &lt;li&gt;Public pens – Open for all users to see, edit, and fork&lt;/li&gt;
+  &lt;li&gt;Personal Blog – Holds all pens and posts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;pro-features&quot;&gt;Pro Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Private Pens – Pens only you can edit and see&lt;/li&gt;
+  &lt;li&gt;Teacher Mode – Allows one user to write code, such as teacher, and others to watch changes, but not edit, typically for students&lt;/li&gt;
+  &lt;li&gt;Change the style of pen embeds&lt;/li&gt;
+  &lt;li&gt;Asset hosting – Host assets, such as images, css, javascript, and more&lt;/li&gt;
+  &lt;li&gt;Collaborative Code Editing – Collaborative live code editing amongst two users, more on a super pro account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Definitely go and give Codepen a go! It is a wonderful asset for making short demos of code and sharing them with other people.&lt;/p&gt;
+
+&lt;div style=&quot;margin-left:40%; padding-top: 1em;&quot;&gt;
+  &lt;a href=&quot;http://codepen.io/&quot;&gt;&lt;i class=&quot;fa fa-codepen&quot; style=&quot;font-size: 3em;&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://mason-fox.com/2015/08/15/codepen-playground.html</link>
+        <guid isPermaLink="true">http://mason-fox.com/2015/08/15/codepen-playground.html</guid>
+        
         
       </item>
     

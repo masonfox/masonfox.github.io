@@ -18,7 +18,7 @@ intro-p: My name is Mason and I am a Front End Web Developer! I currently work a
   </div>
 </div>
 
-<!-- <div class="intro">
+<div class="intro">
   <div class="intro-img">
     <img src="images/mason.jpg">
   </div>
@@ -28,54 +28,29 @@ intro-p: My name is Mason and I am a Front End Web Developer! I currently work a
   </div>
 </div>
 
-<div class="row portfolio-row">
+<!-- <div class="row portfolio-row">
   <div class="container">
     <div class="portfolio-header">
       <h1>My Portfolio</h1>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="grid">
   <div class="grid-sizer">
-    <a href="#0" class="grid-item" id="foundation">
+    
+    {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="grid-item" id="{{ post.topic-id }}">
       <div class="overlay-block">
-        <h2>Foundation</h2>
+        <h2>{{ post.title }}</h2>
+        <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
       </div>
-      <img src="/images/yeti.png" alt="">
+      <img src="/images/{{ post.feature-img }}" alt="">
     </a>
-    <a href="#0" class="grid-item" id="angular">
-      <div class="overlay-block">
-        <h2>Angular JS</h2>
-      </div>
-      <img src="/images/angular.png" alt="">
-    </a>
-    <a href="#0" class="grid-item" id="bootstrap">
-      <div class="overlay-block">
-        <h2>Bootstrap</h2>
-      </div>
-      <img src="/images/bootstrap.png" alt="">
-    </a>
-    <a href="#0" class="grid-item" id="yeoman">
-      <div class="overlay-block">
-        <h2>Yeoman</h2>
-      </div>
-      <img src="/images/yeoman.png" alt="">
-    </a>
-    <a href="#0" class="grid-item" id="grunt">
-      <div class="overlay-block">
-        <h2>Grunt JS</h2>
-      </div>
-      <img src="/images/grunt.png" alt="">
-    </a>
-    <a href="#0" class="grid-item" id="rails">
-      <div class="overlay-block">
-        <h2>Ruby on Rails</h2>
-      </div>
-      <img src="/images/rails.png" alt="">
-    </a>
+    {% endfor %}
   </div>
-</div> -->
+</div>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 <!-- <div class="home">
   <h1 class="page-heading">Posts</h1>
