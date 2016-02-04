@@ -1,71 +1,139 @@
----
-layout: home
-intro-p: My name is Mason and I am a Front End Web Developer! I currently work as a Graphic and Web Devevloper at Service Spring Corporation. Thank you for visiting my site, I hope you enjoy it!
----
-
-<div class="land-holder">
-  <div class="welcome animated fadeInUp">
-    <h1>Mason Fox</h1>
-    <h3>Front End Web Developer</h3>
-    <a href="http://codepen.io/masonfox/"><i class="fa fa-codepen"></i></a>
-    <a href="https://github.com/masonfox"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/masonfox"><i class="fa fa-linkedin"></i></a>
-  </div>
-  <div class="stars">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-  </div>
-</div>
-
-<div class="intro">
-  <div class="intro-img">
-    <img src="images/mason.jpg">
-  </div>
-  <div class="intro-text">
-    <h1>Hi, I'm Mason</h1>
-    <h3 class="intro-sub">{{ page.intro-p }}</h3>
-  </div>
-</div>
-
-<!-- <div class="row portfolio-row">
-  <div class="container">
-    <div class="portfolio-header">
-      <h1>My Portfolio</h1>
-    </div>
-  </div>
-</div> -->
-
-<div class="grid">
-  <div class="grid-sizer">
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Mason Fox - Frontend Dev</title>
     
-    {% for post in site.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="grid-item" id="{{ post.topic-id }}">
-      <div class="overlay-block">
-        <h2>{{ post.title }}</h2>
-        <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
-      </div>
-      <img src="/images/{{ post.feature-img }}" alt="">
-    </a>
-    {% endfor %}
-  </div>
+    
+    
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700'>
+
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  background-color: #2f3541;
+  color: #EFF1EF;
+  font-family: 'Fira Mono', Monospace;
+  margin: 0;
+  overflow-x: hidden;
+}
+body a {
+  color: inherit;
+}
+body a:hover {
+  color: #fff;
+  background-color: #B48EA9;
+}
+body .stream {
+  margin-top: 8px;
+}
+body .line {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0 4px;
+  padding-top: 2px;
+  width: calc(100% - 12px);
+}
+body .line p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+body .line .name {
+  max-width: 80px;
+  min-width: 80px;
+  text-align: right;
+  padding-right: 6px;
+}
+body .editline {
+  background-color: #3a4150;
+  padding: 2px 4px 0px 4px;
+  width: calc(100%);
+  margin: 0;
+  margin-bottom: 8px;
+}
+body .editline .edit {
+  min-width: calc(100% - 200px);
+  outline: none;
+}
+body .editline .time {
+  user-select: none;
+  cursor: default;
+  color: #8FA1B3;
+}
+
+.whitet {
+  color: #fff;
+}
+
+.redt {
+  color: #A3BE89;
+}
+
+.important {
+  color: #E3A786;
+}
+
+.bluet {
+  color: #D0876B;
+}
+
+.greent {
+  color: #BA5049;
+}
+
+.selft {
+  color: #EBCB8B;
+}
+
+::selection {
+  color: #fff;
+  background: #B48EA9;
+}
+
+::-webkit-scrollbar {
+  background-color: #3A3A3A;
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bcbcbc;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #3A3A3A;
+}
+
+::-webkit-resizer {
+  background-color: #3A3A3A;
+}
+
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    <div class="stream"></div>
+<div class="line editline">
+   <p class="time"></p>
+   <p class="name">&gt;</p>
+   <p tabIndex="1" contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="information edit"></p>
 </div>
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://codepen.io/OfficialAntarctica/pen/dcdf9b1e328493afd4bd982ed98266d3.js'></script>
 
-<!-- <div class="home">
-  <h1 class="page-heading">Posts</h1>
-  <ul class="post-list">
-    
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <script src="js/index.js"></script>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
     
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div> -->
+    
+    
+  </body>
+</html>
