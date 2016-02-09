@@ -18,7 +18,7 @@ $(document).ready(function(e) {
       
    ["skills", "My skills", "", "HTML &amp; CSS: 90%,", "Sass, Stylus, Less: 90%,",  "JS: 60%,", "PHP: 65%,", "Rails: 35%,", "Meteor: 50%,", "React: 50%", ""],
       
-   ["Squarecard", "About Squarecard", "", "Squarecard is a webapp focusing on an effective and practical E-business card webapp approach.", "It is still in alpha, but we, our team, are constantly working on it!", "", "Support me: [http://alpha.squarecard.io/](Join Squarecard)"],
+   ["Squarecard", "About Squarecard", "", "Squarecard is a webapp focusing on an effective and practical E-business card webapp approach.", "It is still in alpha, but we, our team, are constantly working on it!", "", "Support me: [http://squarecard.io/](Join Squarecard)"],
       
    ["gulp-starter", "About Gulp-Starter", "", "Gulp-Starter is an out of the box gulp build that includes a plethora of modern web development tools.", "It is intended to excelerate project startup and provide consitency from project to project.", "", "[/gulp-starter](See Gulp-Starter)"],
       
