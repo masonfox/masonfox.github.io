@@ -105,3 +105,23 @@ body {
 ::-webkit-scrollbar-thumb{background-color:$grey;}
 ::-webkit-scrollbar-corner{background-color:$darkgrey;}
 ::-webkit-resizer{background-color:$darkgrey;}
+
+.header {
+  width: 100%;
+  background: $red;
+  // padding: 1em 0;
+  
+  img {
+    height: 7em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+  }
+  
+  span {
+    height: 100%;
+    margin: 0;
+  }
+}

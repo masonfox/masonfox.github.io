@@ -1,3 +1,4 @@
+/* line 29, ../scss/style.scss */
 body {
   background-color: #2f3541;
   color: #EFF1EF;
@@ -5,16 +6,20 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+/* line 35, ../scss/style.scss */
 body a {
   color: inherit;
 }
+/* line 37, ../scss/style.scss */
 body a:hover {
   color: #fff;
   background-color: #B48EA9;
 }
+/* line 42, ../scss/style.scss */
 body .stream {
   margin-top: 8px;
 }
+/* line 45, ../scss/style.scss */
 body .line {
   margin: 0;
   padding: 0;
@@ -24,17 +29,20 @@ body .line {
   padding-top: 2px;
   width: calc(100% - 12px);
 }
+/* line 53, ../scss/style.scss */
 body .line p {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
+/* line 58, ../scss/style.scss */
 body .line .name {
   max-width: 80px;
   min-width: 80px;
   text-align: right;
   padding-right: 6px;
 }
+/* line 65, ../scss/style.scss */
 body .editline {
   background-color: #3a4150;
   padding: 2px 4px 0px 4px;
@@ -42,59 +50,92 @@ body .editline {
   margin: 0;
   margin-bottom: 8px;
 }
+/* line 69, ../scss/style.scss */
 body .editline .edit {
   min-width: calc(100% - 200px);
   outline: none;
 }
+/* line 75, ../scss/style.scss */
 body .editline .time {
   user-select: none;
   cursor: default;
   color: #8FA1B3;
 }
 
+/* line 82, ../scss/style.scss */
 .whitet {
   color: #fff;
 }
 
+/* line 85, ../scss/style.scss */
 .redt {
   color: #A3BE89;
 }
 
+/* line 88, ../scss/style.scss */
 .important {
   color: #E3A786;
 }
 
+/* line 91, ../scss/style.scss */
 .bluet {
   color: #D0876B;
 }
 
+/* line 94, ../scss/style.scss */
 .greent {
   color: #BA5049;
 }
 
+/* line 97, ../scss/style.scss */
 .selft {
   color: #EBCB8B;
 }
 
+/* line 100, ../scss/style.scss */
 ::selection {
   color: #fff;
   background: #B48EA9;
 }
 
+/* line 104, ../scss/style.scss */
 ::-webkit-scrollbar {
   background-color: #3A3A3A;
   width: 10px;
   height: 10px;
 }
 
+/* line 105, ../scss/style.scss */
 ::-webkit-scrollbar-thumb {
   background-color: #bcbcbc;
 }
 
+/* line 106, ../scss/style.scss */
 ::-webkit-scrollbar-corner {
   background-color: #3A3A3A;
 }
 
+/* line 107, ../scss/style.scss */
 ::-webkit-resizer {
   background-color: #3A3A3A;
+}
+
+/* line 109, ../scss/style.scss */
+.header {
+  width: 100%;
+  background: #A3BE89;
+}
+/* line 114, ../scss/style.scss */
+.header img {
+  height: 7em;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+}
+/* line 123, ../scss/style.scss */
+.header span {
+  height: 100%;
+  margin: 0;
 }
