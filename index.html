@@ -1,48 +1,213 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Mason Fox - Frontend Dev</title>
-    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Fira+Mono:400,700'>
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> -->
-<script src="js/prefixfree.min.js"></script>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mason Fox</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css'>
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-  <body>
-    
-    <div class="stream"></div>
-      <div class="line editline">
-         <p class="time"></p>
-         <p class="name">&gt;</p>
-         <p tabIndex="1" contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="information edit"></p>
+
+<body>
+
+  <div id="top" class="grad">
+    <div class="nav">
+      <li><a href="#design" class="waves-effect waves-light">about</a></li>
+      <li><a href="#projects" class="waves-effect waves-light">projects</a></li>
+      <!-- <li><a href="#0" id="blog-trig" class="waves-effect waves-light">blog</a></li> -->
+    </div>
+    <div class="land wow animted fadeInUp">
+      <div class="content">
+        <h1 class="heading">Hi, I'm Mason</h1>
+        <a href="#design" class="btn-large min waves-effect">see more</a>
       </div>
-
-<!-- start scripts -->
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script type="text/javascript">
-var commandlist;
-var modcommandlist = [
- ["/l <url> <password (optional)> <t:<num><d/h/m> (optional expire)> <cm:<true> (optional, must go through cl.koya.io and not url.koya.io)>", "Create a new shortened/tracked"],
- ["/url <id/link> <views/created/last>", "View details about the shortened link, how many views, when it was created, when it was last used."],
- ["/check <url>", "Check the security and a summery of the page without joining it."]
-];
-
-function init() {
- $.each(modcommandlist, function(command, explanation){
-    commandlist += [command,explanation];
- });
- console.log("Link Shortner is Working");
-}
-
-init();
-</script>
-
-        <script src="js/index.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script> -->
-
+    </div>
+    <div id="design" class="container design">
+      <div class="content wow animted fadeIn">
+        <div class="row icon-grid">
+          <div class="col s12"><i class="lnr lnr-screen"></i></div>
+        </div>
+        <h3 class="about-me">About Me</h3>
+        <div class="row about">
+          <div class="col s12 m6 offset-m3 white-text">
+            <p class="flow-text">Hello, my name is Mason Fox and I am a Front End Web Developer. I have been working in web for 2 years and have a focus in Front End Development: HTML, CSS, and Javascript. I currently work at Service Spring Corp as a Front End Developer and
+              am the founder and lead developer of <a href="http://alpha.squarecard.io" class="underline">Squarecard.io</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="container projects">
+      <div class="content flow-content wow animted fadeInUp">
+        <div class="row">
+          <div class="col s12 center header white-text"><i class="lnr lnr-rocket"></i>
+            <h3 class="text-white">Projects</h3>
+          </div>
+        </div>
+        <div class="row project-row">
+          
+          <a href="http://alpha.squarecard.io/" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">Squarecard.io</h5>
+              <span class="grey-text text-darken-3">
+                Squarecard is a webapp focusing on an effective and 
+                practical E-business card webapp approach. It is still in alpha, but we, 
+                our team, are constantly working on it!</span>
+            </div>
+          </a>
+          
+          <a href="/react-tube" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">React-Tube</h5>
+              <span class="grey-text text-darken-3">
+                A simple React JS interpretation of Youtube. Using Youtube's API,
+                it searches a query using React JS instantly while typing. I 
+                created this during a React course on Udemy.
+              </span>
+            </div>
+          </a>
+          
+          <a href="/react-book" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">React Book</h5>
+              <span class="grey-text text-darken-3">
+                A simple React JS implementation of storing data with Flux. Created 
+                during a React JS course on Udemy.
+              </span>
+            </div>
+          </a>
+          
+          <a href="/react-todo" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">React Todo</h5>
+              <span class="grey-text text-darken-3">
+                Basic React JS todo. It uses Firebase.io to sync db changes, so
+                anything you CRUD to the list is live and real time! Created during 
+                a React JS course on Udemy!
+              </span>
+            </div>
+          </a>
+          
+          <a href="/fitdesk" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">FitDesk</h5>
+              <span class="grey-text text-darken-3">
+                Fitdesk is a timer for standing desk apps. It uses a 
+                minimalist design an does exactly what a timer does... times stuff
+              </span>
+            </div>
+          </a>
+          
+          <a href="/gulp-starter" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">Gulp-Starter</h5>
+              <span class="grey-text text-darken-3">  
+                Gulp-Starter is an out of the box gulp build that includes 
+                a plethora of modern web development tools. It is intended 
+                to excelerate project startup and provide consitency from 
+                project to project.
+              </span>
+            </div>
+          </a>
+          
+          <a href="http://cccridgevillecorners.com/" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">CCC Website</h5>
+              <span class="grey-text text-darken-3">
+                Created during my Internship with Christ Community Church (CCC) 
+                while attending Bowling Green State University. 
+              </span>
+            </div>
+          </a>
+          
+          <a href="/imgur-browser" target="_blank" class="col s12 m6">
+            <div class="card-panel">
+              <h5 class="card-title grey-text text-darken-4">React Imgur-Browser</h5>
+              <span class="grey-text text-darken-3">
+                A simple React JS interpretation of Imgur. Uses Imgur's api to display 
+                categories, images, and single level comments! Created during a React 
+                course on Udemy.
+              </span>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+    </div>
     
+    <!-- <footer id="contact" class="container wow animted fadeInUp">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col s12 center header white-text"><i class="lnr lnr-coffee-cup"></i>
+            <h3 class="text-white">Contact Me</h3>
+          </div>
+          <form action="http://formspree.io/masonfox22@gmail.com" class="col s12">
+            <div class="row">
+              <div class="input-field col s12 m4">
+                <input id="first_name" type="text" required="required" class="validate white-text" />
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s12 m4">
+                <input id="last_name" type="text" required="required" class="validate white-text" />
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field col s12 m4">
+                <input id="email" type="text" required="required" class="validate white-text" />
+                <label for="email">Email Address</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+                <label for="textarea1">Textarea</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer> -->
     
-    
-  </body>
+  </div> <!-- end gradient -->
+  
+  <div class="overlay"></div>
+  
+  <div id="blog" class="blog">
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+    <div class="post random-color"><span class="date">Date</span>
+      <h4>Title</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quas. Earum nesciunt ut alias repudiandae porro aspernatur non, voluptates</p><a class="waves-effect waves-light">Read more</a>
+    </div>
+  </div>
+  
+  <a href="#top" class="top waves-effect waves-light"><i class="lnr lnr-chevron-up"></i></a>
+  
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
