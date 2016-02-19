@@ -82,7 +82,7 @@ body {
 .grad {
   background: -webkit-linear-gradient(#E34B48, #270738);
   background: linear-gradient(#E34B48, #270738);
-  height: auto;
+  min-height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -235,14 +235,14 @@ footer {
   z-index: 1500; }
 
 .random-color:hover {
-  background: rgb(29, 200, 70); }
+  background: rgb(175, 24, 5); }
 
 .lock {
   overflow: hidden !important; }
 
 .post {
   padding: 2em;
-  border-top: 5px solid rgb(29, 200, 70);
+  border-top: 5px solid rgb(175, 24, 5);
   background: none; }
   .post:hover {
     color: #fff !important; }
