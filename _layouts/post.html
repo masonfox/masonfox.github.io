@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="post-land"
+  {% if page.land-bg %}
+    style="background-image: url({{ page.land-bg }});"
+  >
+  <div class="grad-land" style="background: rgba(0,0,0,.5);">
+  {% else %}
+    style="background: #2196F3;"
+  >
+  <div class="grad-land">
+  {% endif %}
+    <div class="container content">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h1>{{ page.title }}</h1>
+          <p class="meta">{{ page.date | date: "%B %-d, %Y" }} by <span>{{ site.author }}</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="post-read" href="#post"><i class="lnr lnr-chevron-down"></i></a>
+</div>
+
+<div class="post-content" id="post">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-8 col-md-offset-2">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

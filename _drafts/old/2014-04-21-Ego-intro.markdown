@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Getting Started with Ego"
+date:   2014-04-21 09:11:03
+
+land-bg: https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a40432a29a1c55fc0b2ec7f1f2271877
+---
+
+Thank you for purchasing the Ego Jekyll Theme! The rest of this post will give an overview of the theme and a handful of the tweaks that should be made to personal to you.
+
+### Getting Started
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Project Dependencies
+
+Ego is pre-packaged with all of the dependencies it needs to run. For reference, the list is here:
+
+- jQuery
+- scrollTo
+- localScroll
+- Bootstrap

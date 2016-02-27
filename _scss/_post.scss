@@ -1,0 +1,80 @@
+.post-land {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+
+  .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+    h1 {
+      font-size: 3.5em;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.25em;
+      font-weight: 100;
+      color: #fff;
+      padding: .25em .5em;
+      position: relative;
+    }
+  }
+}
+
+.post-read {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.75em;
+  transition: bottom 400ms ease;
+
+  @media (max-width: 475px) {
+    bottom: 15%;
+  }
+
+  @media (max-width: 330px) {
+    bottom: 5%;
+  }
+
+  &:hover, &:focus {
+    color: #fff;
+  }
+}
+
+.grad-land {
+  @extend .grad;
+
+  .content span {
+    font-weight: 300 !important;
+  }
+}
+
+.post-content {
+  padding: 3em 1em;
+  background: #fff;
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 .5em;
+  }
+  
+  p {
+    margin-bottom: 1.25em !important;
+  }
+}
+
+.highlight {
+  padding: 1em;
+  border-radius: 5px;
+  background: #f1f1f1;
+
+  pre {
+    margin: 0;
+    padding: 0;
+  }
+}

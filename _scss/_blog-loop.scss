@@ -1,0 +1,71 @@
+.post-split {
+  background: lighten($main, 20%);
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  font-family: $font;
+  font-weight: 200;
+}
+
+.posts-container {
+  padding: 4em 1em 3em;
+}
+
+ul.posts {
+  margin-left: 0; // resets the rest.scss initial ul margin
+
+  .post {
+    position: relative;
+    margin-bottom: 4em;
+
+    .post-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      transition: all 500ms ease;
+      background-image:
+        linear-gradient(
+          transparent, #fff
+        );
+      @media (max-width: 1000px) {
+        background: none;
+      }
+
+      &:after {
+        content: '';
+        transition: all 500ms ease;
+        position: absolute;
+        bottom: -1em;
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+        height: 2px;
+        margin-top: 2em;
+        background: lighten($main, 20%);
+      }
+
+      &:hover {
+        opacity: .25;
+        &:after {
+          width: 100%;
+          background: $main;
+        }
+      }
+    }
+  }
+
+  .post-title {
+    font-size: 2.25em;
+    color: #444;
+    font-weight: 500;
+    font-family: $font;
+  }
+
+  h6 {
+    font-family: $font2;
+    margin: 0;
+    color: #777;
+    padding: 1em 0;
+  }
+}

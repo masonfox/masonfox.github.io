@@ -1,0 +1,144 @@
+@import "variables";
+@import "utilities";
+@import "nav";
+@import "jekyll";
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font !important;
+}
+
+p, ul, li {
+  font-weight: 200;
+}
+
+.excerpt {
+  font-family: Monaco !important;
+}
+
+.loader {
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+
+  .loader-inner {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #000;
+  }
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  background: #fff !important;
+  min-height: 100%;
+  // width: 100%;
+  transition: all 400ms ease;
+}
+
+a {
+
+  &:hover, &:focus {
+    text-decoration: none !important;
+  }
+}
+
+.landing {
+  background: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=eb13d4961a078aca65cfa493a8026519');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  padding: 8em 1em;
+  color: #fff;
+  // margin-bottom: 2em;
+  font-family: $font;
+
+  @media (min-width: 1600px) {
+    padding: 15em 1em;
+  }
+
+  .intro {
+    &:after {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      width: 5em;
+      height: 2px;
+      margin-top: 2em;
+      background: rgba(255,255,255,.65);
+    }
+
+    i {
+      font-size: 3em;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: .5em;
+    }
+
+    h3 {
+      color: rgba(255,255,255,.55);
+    }
+  }
+}
+
+.grad {
+  @include main-alpha(.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+form {
+  font-family: $font;
+}
+
+footer {
+  border-top: 1px solid #E6E6E6;
+  color: #777;
+  font-weight: 200;
+  padding: 1.5em 1em 1em;
+  
+  .social {
+    margin-bottom: 1em;
+    
+    a {
+      margin: 0 1em;
+      font-size: 1.2em;
+      color: #d5d5d5;
+      transition: all 400ms ease;
+      
+      &:hover {
+        color: $main;
+      }
+    }
+  }
+}
+
+.btn-primary {
+  font-family: $font;
+  background: none !important;
+  border-color: #bbb !important;
+  color: #777 !important;
+  transition: all 400ms ease;
+
+  &:hover, &:focus {
+    border-color: $main !important;
+    color: $main !important;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Ego",
+  "description": "A minimal Jekyll based blog",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mason Fox"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jekyll",
+    "blog",
+    "static",
+    "generator",
+    "Theme"
+  ],
+  "homepage": "https://github.com/masonfox/Ego",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "jquery.localScroll": "^1.4.0",
+    "jquery.scrollTo": "^2.1.2"
+  }
+}

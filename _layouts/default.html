@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="loader">
+      <div class="loader-inner">
+        <h1>Loading...</h1>
+      </div>
+    </div>
+    <div class="page">
+      <div class="page-overlay"></div>
+      <div class="nav-holder">
+        <a href="#0" id="nav"><i class="lnr lnr-menu"></i></a>
+      </div>
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
