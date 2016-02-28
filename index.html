@@ -52,7 +52,7 @@ intro: Hi
             <a href="{{ post.url }}" class="post-overlay">
               <a class="post-title" >{{ post.title }}</a>
               <h6>{{ post.date | date: "%B %-d, %Y" }}</i></h6>
-              <span class="excerpt">{{ post.excerpt }}</span>
+              <span id="excerpt">{{ post.excerpt }}</span>
             </a>
           </li>
         {% endfor %}

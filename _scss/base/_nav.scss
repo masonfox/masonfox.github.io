@@ -37,9 +37,16 @@ nav.slideNav {
       width: 0;
       height: 1px;
       @include main-alpha(.5);
+      
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
     }
 
     &:hover {
+      @media (min-width: 1024px) {
+        width: 100%;
+      }
       &:after {
         width: 100% !important;
       }

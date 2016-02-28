@@ -43,11 +43,6 @@ a:visited {
 .posts li {
   line-height: 1.75em; }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, monospace !important;
-  font-size: 80%; }
-
 /*****************************************************************************/
 /*
 /* Site
@@ -197,6 +192,12 @@ nav.slideNav {
       width: 0;
       height: 1px;
       background: rgba(33, 150, 243, 0.5); }
+      @media (max-width: 1024px) {
+        nav.slideNav a:after {
+          width: 100%; } }
+    @media (min-width: 1024px) {
+      nav.slideNav a:hover {
+        width: 100%; } }
     nav.slideNav a:hover:after {
       width: 100% !important; }
 
@@ -318,12 +319,11 @@ blockquote {
   padding: .75em;
   font-size: 18px;
   letter-spacing: -1px;
-  font-style: italic;
-  font-weight: 300;
+  font-weight: 100;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
+  blockquote p {
+    padding: 0 !important; }
 
 code {
   padding: 1px 5px; }
@@ -376,8 +376,11 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, li {
   font-weight: 200; }
 
-.excerpt {
-  font-family: Monaco !important; }
+#excerpt {
+  font-family: Monaco !important;
+  font-size: 1rem !important;
+  margin: 0;
+  color: #aaa; }
 
 .loader {
   position: fixed;
@@ -441,6 +444,9 @@ a:hover, a:focus {
   padding: 0;
   height: 100%;
   width: 100%; }
+
+.about p {
+  font-size: 1.25rem; }
 
 .about p:last-child {
   margin-bottom: 0; }
@@ -5375,7 +5381,8 @@ a.bg-danger:focus, a.bg-danger:hover {
   .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
     margin: 1em 0 .5em; }
   .post-content p {
-    margin-bottom: 1.25em !important; }
+    margin-bottom: 1.25em !important;
+    font-size: 1.35rem; }
 
 .highlight {
   padding: 1em;

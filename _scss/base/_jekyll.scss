@@ -106,13 +106,12 @@ blockquote {
     padding: .75em;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
-    > :last-child {
-        margin-bottom: 0;
+    p {
+      padding: 0 !important;
     }
 }
 
